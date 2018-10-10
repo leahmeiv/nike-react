@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c58c487f-2789-4c98-8114-9886d9830c79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="c58c487f-2789-4c98-8114-9886d9830c79" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +13,7 @@
     <session id="329243909">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -39,13 +36,13 @@
         <counts>
           <entry key="css" value="166" />
           <entry key="gitignore" value="13" />
-          <entry key="js" value="3968" />
+          <entry key="js" value="4029" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="166" />
-          <entry key="JavaScript" value="3968" />
+          <entry key="JavaScript" value="4029" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
@@ -67,16 +64,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my-app/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="224" column="19" selection-start-line="224" selection-start-column="19" selection-end-line="224" selection-end-column="19" />
+            <state relative-caret-position="120">
+              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="n#LebronShoe#0" />
                 <element signature="n#SecondImage#0" />
+                <element signature="n#!!block;n#render#0;n#SecondImage#0" />
                 <element signature="n#ThirdImage#0" />
+                <element signature="e#1343#1552#0" />
                 <element signature="n#FourthImage#0" />
+                <element signature="n#TopMenu#0" />
                 <element signature="n#SecondMenu#0" />
                 <element signature="n#FooterMenu#0" />
+                <element signature="n#FooterMenuTwo#0" />
+                <element signature="n#Nike#0" />
               </folding>
             </state>
           </provider>
@@ -265,16 +267,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="224" column="19" selection-start-line="224" selection-start-column="19" selection-end-line="224" selection-end-column="19" />
+        <state relative-caret-position="120">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="n#LebronShoe#0" />
             <element signature="n#SecondImage#0" />
+            <element signature="n#!!block;n#render#0;n#SecondImage#0" />
             <element signature="n#ThirdImage#0" />
+            <element signature="e#1343#1552#0" />
             <element signature="n#FourthImage#0" />
+            <element signature="n#TopMenu#0" />
             <element signature="n#SecondMenu#0" />
             <element signature="n#FooterMenu#0" />
+            <element signature="n#FooterMenuTwo#0" />
+            <element signature="n#Nike#0" />
           </folding>
         </state>
       </provider>
