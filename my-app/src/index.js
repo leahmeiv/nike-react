@@ -2,15 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
 import 'semantic-ui-css/semantic.min.css';
-import { Container, Header, Menu, Dropdown, Icon, Image, Grid, Input, List, Button} from 'semantic-ui-react';
+import { Container, Menu, Dropdown, Icon, Image, Grid, List, Button} from 'semantic-ui-react';
 
 class LebronShoe extends React.Component {
   render() {
     return (
 
         <Container fluid>
-          <Image
-              src="https://content.nike.com/content/dam/one-nike/en_us/season-2018-fl/Homepage/NA/0924/lebron_HP_p1_d.jpg.transform/full-screen/lebron_HP_p1_d.jpg" fluid className="ui fluid image"/>
+          <Image fluid className="ui fluid image"
+              src="https://content.nike.com/content/dam/one-nike/en_us/season-2018-fl/Homepage/NA/0924/lebron_HP_p1_d.jpg.transform/full-screen/lebron_HP_p1_d.jpg"/>
 
           <p className="strongest">
             <b>FOR THE STRONGEST:</b>
@@ -23,7 +23,6 @@ class LebronShoe extends React.Component {
           </p>
           <Button className="ui shoe button">
             SHOP NOW</Button>
-
         </Container>
     )
   }
@@ -57,25 +56,26 @@ class FourthImage extends React.Component{
 class TopMenu extends React.Component{
   render(){
     return(
-        <Menu className="ui topmenu fixed menu">
+
           <Container>
-            <Menu.Item>
+            <Menu fixed className='ui topmenu fixed menu'>
+            <Menu.Item as={'a'}>
               NikePlus
             </Menu.Item>
 
-            <Menu.Item>
+            <Menu.Item as={'a'}>
               <Image className="ui text image" src="https://mbtskoudsalg.com/images/air-jordan-logo-png-8.png" width="21px"/>
             </Menu.Item>
 
-            <Menu.Item>
+            <Menu.Item as={'a'}>
               <Image className="ui image" src="https://cdn.dresscodeclothing.com/images/logo/Hurley.png" width="40px"/>
             </Menu.Item>
 
-            <Menu.Item>
+            <Menu.Item as={'a'}>
               <Image className="ui image" src="https://www.underconsideration.com/brandnew/archives/converse_logo.png" width="70px"/>
             </Menu.Item>
 
-            <Menu.Item className="right item">
+            <Menu.Item as={'a'} className="right item">
               Join/Log In To NikePlus Account
             </Menu.Item>
             <Dropdown className="ui dropdown item" text="Help">
@@ -95,8 +95,9 @@ class TopMenu extends React.Component{
             <Menu.Item>
               <Image className="ui flag image" src="https://content.nike.com/content/dam/nike/global/country_flags/us_sml.png"/>
             </Menu.Item>
+            </Menu>
           </Container>
-        </Menu>
+
     )
   }
 }
@@ -110,9 +111,9 @@ class SecondMenu extends React.Component{
             </Menu.Item>
           </Container>
 
-          <Container>
-            <Grid centered >
-              <Menu.Item>
+        <Container>
+            <Grid centered>
+              <Menu.Item >
                 <Dropdown item text="MEN">
                   <Dropdown.Menu>
                     <Dropdown.Item><b>NEW RELEASES</b></Dropdown.Item>
@@ -162,9 +163,11 @@ class SecondMenu extends React.Component{
                 </Dropdown>
               </Menu.Item>
             </Grid>
-          </Container>
-          <Menu.Item right item><Icon name="search icon"/></Menu.Item>
+        </Container>
 
+        <Container>
+          <Menu.Item right item><Icon name="search icon"/></Menu.Item>
+        </Container>
         </Menu>
     )
   }
